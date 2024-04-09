@@ -8,4 +8,3 @@ class HomePage(ListView):
     model =Post
     context_object_name= "posts"
     queryset = Post.objects.all().order_by('-id')[0:30]
-
